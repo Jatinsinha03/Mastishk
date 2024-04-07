@@ -150,12 +150,9 @@
     </div>
 </div>
 <script>
-    const dataString = localStorage.getItem("sharedDyslexia1Score");
-    const dataString1 = localStorage.getItem("sharedDyslexia2Score");
-    const dataString2 = localStorage.getItem("sharedAutism3Score");
-    const data = dataString.split(',').map(Number);
-    const data1 = dataString1.split(',').map(Number);
-    const data2 = dataString2.split(',').map(Number);
+    const data = [0,6];
+    const data1 = [0,5];
+    const data2 = [0,1];
     // console.log(data2);
     var score1 = data[data.length - 1];
     var scoring = document.getElementById("score1");
